@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#login{
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: crimson;
+	padding-bottom: 25px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	position: relative;
+}
+#login img{
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 30px;
+	margin-top: 70PX;
+}
+#login .husk{
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 25%;
+	margin-right: 19%;
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+	font-family: verdana;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+#error{
+	width: 60%;
+	margin-left: 19%;
+	display: none;
+	font-family: verdana;
+	color: #7F0000;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 2px solid #7F0000;
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+	margin-top: 40px;
+}
+#login input[type=text]{
+	width: 60%;
+	margin-left: 19%;
+	margin-right: 19%;
+	margin-bottom: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 2px solid crimson;
+	border-radius: 10px;
+}
+#login input[type=password]{
+	width: 60%;
+	margin-left: 19%;
+	margin-right: 19%;
+	margin-bottom: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 2px solid crimson;
+	border-radius: 10px;
+}
+#login input[type=checkbox]{
+	margin-left: 21%;
+	margin-top: -59px;
+	position: absolute;
+}
+#login .signin{
+	margin-left: 19%;
+	background-color: white;
+	border: 2px solid crimson;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 10px;
+}
+
+
+
+
+
+/*-----Navbar-----*/
+h1{
+    text-align: center;
+    background-color: crimson;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+li button{
+    background-color: white;
+    border: none;
+    padding-left: 60px;;
+}
+li button:hover{
+    background-color: white;
+    border: none;
+    color: lightgray;
+
+}
+
+#navigation{
+    font-family: verdana;
+    
+}
+#Navbar{
+    display: inline-flex;
+    margin-top: 10px;
+}
+#inpSearch{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+#Navbar li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+
+
+
+#site{
+	display: none;
+}
+
+#Home{
+	display: none;
+}
+
+#{
+	display: none;
+}
+
+#Contact{
+	display: none;
+}
+
+#Contact {
+    
+
+
+
+
+
+#InfoText{
+    font-family: verdana;;
+}
+#InfoText h3{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+#InfoText h4{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    
+}
+#InfoText p{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+/*-----Footer-----*/
+#Footer{
+    margin-top: 350px;
+}
+
+#FooterNav{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#FooterNav li{
+    list-style: none;
+    margin-left: 20%;
+}
+#FooterNav li a{
+    color: white;
+}
+#FooterNav li a:hover{
+    color: grey;
+}
+
+#Footer h6{
+    color: white;
+}
+#Social h6{
+    margin-top: 30px;
+    margin-left: 47px;
+}
+
+#SocialNav{
+    display: inline-flex;
+}
+#SocialNav li{
+    list-style: none;
+}
+#SocialNav li a{
+    color: white;
+    padding: 10px
+}
+#SocialNav li a:hover{
+    color: grey;
+}
+#Footer{
+    background-color: black;
+}

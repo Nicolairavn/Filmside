@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/CSS/Style.css">
+    <script src="./custom.js"></script>
+    <script src="https://kit.fontawesome.com/b78555f688.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="login">
+        <img src="./assets/Images/person.png">
+        <br>
+        <input type="text" id="username" placeholder="Username">
+        <br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <p id="error">Wrong username or password!</p>
+        <h6 class="husk">Remeber me:</h6>
+        <input type="checkbox" name="checkbox" checked="checked"><br>
+        <button class="signin" onClick="validateForm()">Login</button>
+    </div>
+    
+
+    <div class="col-lg-12" id="site">
+        
+        <!-----Navbar----->
+         <div class="container-fluid">
+            <div class="row" id="navigation">
+                <div class="col-lg-12">
+                    <h1>The Movie Guide</h1> 
+                </div>
+            </div>    
+            <div class="row">   
+                <div class="col-lg-12">
+                    <ul id="Navbar">
+                        <li><button class="link" onclick="showHome()"><div class="icon"></div><div class="title"><P>Home</P></div></button></li>
+                        <li><button class="link" onclick="showMovies()"><div class="icon"></div><div class="title"><p>Movies</p></div></button></li>
+                        <li><button class="link" onclick="showContact()"><div class="icon"></div><div class="title"><p>Contact</p></div></button></li>
+                    </ul>
+                    <input type="text" id="inpSearch" className="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                </div>  
+            </div>
+        
+            <div class="row" id="Home">
+                <div class="col-lg-6" id="InfoText">
+                    <h3>Look up interesting data about movies</h3>
+                    <h4>Simply search a movie title and try it</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit suscipit perspiciatis atque unde fuga repudiandae illum vel, quas ab mollitia temporibus veniam, ex enim consequatur eum minus alias a? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit suscipit perspiciatis atque unde fuga repudiandae illum vel, quas ab mollitia temporibus veniam, ex enim consequatur eum minus alias a?</p>
+                </div>
+                <div class="col-lg-6">
+    
+                </div>
+            </div>
+          
+            <div class="row" id="Movies">
+                <div class="col-lg-12" >
+                    <div id="resultat">
+                        
+                    </div>
+                </div>
+
+                <h4 id="Title"> </h4>
+                <p id="Description"> </p>
+                <p id="Premiere"> </p>
+            </div>
+
+            <div class="row" id="Contact">
+                <div class="col-lg-6">
+                    <h4>Contact us:</h4>
+                    <H5>E-mail:</H5>
+                    <p>example@example.com</p>
+                    <h5>Telephone:</h5>
+                    <p>1234 5678</p>
+                    <h5></h5>
+                    <p></p>
+                </div>
+                <div class="col-lg-6" id="contactformular">
+                    <h4>Or Contact us from this website</h4>
+                    <form>
+                        <input type="name" placeholder="Name">
+                        <input type="email" placeholder="E-mail:">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button>Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+    
+            
+
+        <!-----Footer----->
+            <div class="row" id="Footer">
+                <div class="col-lg-6">
+                    <ul id="FooterNav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" id="Social">
+                    <h6>Social Media</h6>
+                        <ul id="SocialNav">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> 
+                            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                  
+     
+            </div>
+        </div>   
+     </div>    
+
+                
+          
+    
+</body>
+</html>
